@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 
- <script type="text/javascript"src="Mapdata.js"></script>
- <script type="text/javascript"src="script.js"></script>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -39,7 +39,7 @@
      inkscape:window-y="118"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
-     <link rel="stylesheet" href="style.css" type="text/css" />
+     
   <defs
      id="defs4">
     <style

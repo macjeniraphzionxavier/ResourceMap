@@ -1,3 +1,4 @@
+@import "compass/css3";
 body{
     display: flex;
     
@@ -5,12 +6,11 @@ body{
 .usaSVG{
     width: 1000px;
     height: 1200px;
-    
 }
 
-path {
+.path{
     stroke: white;
-    fill:paleturquoise !important;
+    fill:rgb(238, 175, 219) !important;
 
     transition: fill .4s ease;
     transform-origin: center center;
