@@ -13,13 +13,15 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <input type="color" class="color1">
 
         <div class="map">
-        <object style="fill:chocolate" class="usaSVG" type="image/svg+xml" data="MapsSVG.svg">
+        <object class="usaSVG" type="image/svg+xml" data="MapsSVG.svg">
         </div>
         
 <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
 
         <script type="text/javascript"src="Mapdata.js"></script>
+        <script type="text/javascript"src="script.js"></script>
     </body>
 </html>
