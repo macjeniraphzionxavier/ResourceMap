@@ -1,3 +1,6 @@
+
+ <script type="text/javascript"src="Mapdata.js"></script>
+ <script type="text/javascript"src="script.js"></script>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
