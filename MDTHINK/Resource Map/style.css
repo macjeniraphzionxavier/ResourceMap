@@ -8,11 +8,11 @@ body{
     height: 1200px;
 }
 
-.path{
+path{
     stroke: white;
     fill:rgb(238, 175, 219) !important;
 
-    transition: fill .4s ease;
+    transition: fill 0.4s ease;
     transform-origin: center center;
 }
 
