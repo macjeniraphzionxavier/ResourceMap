@@ -1,5 +1,5 @@
 var colorPicker = document.querySelector(".color1");
-var paths = document.getElementsByClassName("state");
+var paths = document.querySelector("state");
 
 function setGradient(){
   var newColor = colorPicker.value;

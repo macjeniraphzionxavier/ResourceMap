@@ -1,4 +1,4 @@
-@import "compass/css3";
+
 body{
     display: flex;
     
@@ -12,12 +12,12 @@ path{
     stroke: white;
     fill:rgb(2, 190, 87) !important;
 
-    transition: fill 0.8s ease;
+    transition: transform 0.8s ease-in-out;
     transform-origin: center center;
 }
 
 path:hover {
     fill: orange !important;
     cursor: pointer;
-    transform: scale(1.008, 1.008);
+    transform: scale(1.005, 1.005);
 }
