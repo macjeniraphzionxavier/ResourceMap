@@ -10,7 +10,7 @@ body{
 
 path{
     stroke: white;
-    fill:rgb(2, 190, 87) !important;
+  
 
     transition: transform 0.8s ease-in-out;
     transform-origin: center center;
