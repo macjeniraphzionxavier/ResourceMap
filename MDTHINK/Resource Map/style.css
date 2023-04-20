@@ -1,7 +1,6 @@
 
 body{
     display: flex;
-    
 }
 .usaSVG{
     width: 800px;
@@ -22,7 +21,47 @@ path:hover {
     transform: scale(1.005, 1.005);
 }
 
-/*.Check-Box{
-    display:flex;
-    flex-direction: column;
-}*/
+/*Scrollbox Style*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 0px solid #ddd;
+}
+  
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+/* width */        
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+  
+.Check-Box {
+    display: block;
+    border: 0px solid red;
+    padding: 5px;
+    margin-top: 100px;
+    width: 115%;
+    height: 300px;
+    overflow-y: scroll;
+    position: relative;
+}
