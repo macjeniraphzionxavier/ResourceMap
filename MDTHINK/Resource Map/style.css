@@ -2,9 +2,41 @@
 body{
     display: flex;
 }
+
+/*html,body{
+    overflow: hidden;
+}*/
+
+/*.page-wrap{
+    padding: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    position: relative;
+}*/
+.page-wrap{
+    width: 100%;
+    position: relative;
+}
+.boxes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.map{
+    display: flex;
+    overflow: hidden;
+}
+
 .usaSVG{
     width: 800px;
     height: 1200px;
+    margin-top: -300px;
+    margin-left: 200px;
 }
 
 path{
@@ -60,7 +92,7 @@ td {
     border: 0px solid red;
     padding: 5px;
     margin-top: 100px;
-    width: 115%;
+    width: 22%;
     height: 300px;
     overflow-y: scroll;
     position: relative;
